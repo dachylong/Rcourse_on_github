@@ -1,0 +1,31 @@
+---
+title: 'R course: R basic and Git'
+author: "darthy"
+date: "31 March 2018"
+output: html_document
+---
+
+```{r}
+load("./lesson1_Rbasic/write_up/lesson1_environment.RData")
+```
+
+# Data
+
+Here is a look at our two data frames. First is the one we read in, the second is our subset of just the bilinguals' data.
+
+```{r}
+head(data)
+head(data_bl)
+```
+
+
+# Figure
+
+Here's a figure of the bilinguals compared to the monolinguals. 
+
+```{r}
+figure
+```
+
+
+
